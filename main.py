@@ -6,14 +6,14 @@ Created on 2016/12/14 15:05
 @author: qiding
 
 @files in:
-trading record: \\SHIMING\trading\trading_summary\today_str
-target: \\SHIMING\trading\target_files
-target No.7 adj E:\MyTrading\IntradayAccount\Account\No7DailyAccount\today_str\adj_data.csv
+trading record: \\\\SHIMING\\trading\\trading_summary\\today_str
+target: \\\\SHIMING\\trading\\target_files
+target No.7 adj E:\\MyTrading\\IntradayAccount\\Account\\No7DailyAccount\\today_str\\adj_data.csv
 
 @files out:
-E:\MyTrading\IntradayAccount\Account\AlphaAccountDailySummary\today_str\trading_summary.csv
-E:\MyTrading\IntradayAccount\Account\AlphaAccountDailySummary\today_str\ttrading_detail.csv
-E:\MyTrading\IntradayAccount\Account\AlphaAccountDailySummary\today_str\tdata_merge_all.csv
+E:\\MyTrading\\IntradayAccount\\Account\\AlphaAccountDailySummary\\today_str\\trading_summary.csv
+E:\\MyTrading\\IntradayAccount\\Account\\AlphaAccountDailySummary\\today_str\\ttrading_detail.csv
+E:\\MyTrading\\IntradayAccount\\Account\\AlphaAccountDailySummary\\today_str\\tdata_merge_all.csv
 """
 
 import os

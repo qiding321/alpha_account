@@ -24,14 +24,16 @@ my_log = log.my_log
 def send_email(email_message, attach_file_path_list):
     server = 'smtp.exmail.qq.com'
     sender = 'dqi@mingshiim.com'
+    #sender = 'guangy@mingshiim.com'
     print("type in psw: ")
     psw = input()
 
     ############### info 1 ################
     receiver_0 = 'xhwang@mingshiim.com'
     receiver_1 = 'whxun@mingshiim.com'
-    receiver_2 = 'gyang@mingshiim.com'
-    receivers = [receiver_0, receiver_1, receiver_2 , sender]
+    receiver_2 = 'guangy@mingshiim.com'
+    receiver_3 = 'dqi@mingshiim.com'
+    receivers = [receiver_0, receiver_1, receiver_2 , receiver_3]
 
     message = MIMEMultipart()
     message['From'] = sender

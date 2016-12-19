@@ -24,6 +24,8 @@ def get_trading_summary(trading_record_today):
 
     del trading_record_summary_['trading_price']
 
+    trading_record_summary_ = trading_record_summary_.sort_values(by=['account_name'])
+
     return trading_record_summary_
 
 
@@ -72,5 +74,8 @@ def get_trading_diff_summary(trading_record_summary, target_today, account_id_ma
         'long_cost', 'short_cost',
     ]
     data_all_summary = data_all_summary[columns_new]
+
+    data_all_summary = data_all_summary.sort_values(['account_name'])
+    data_merge = data_merge.sort_values(['account_name'])
 
     return data_all_summary, data_merge

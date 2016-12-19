@@ -19,7 +19,8 @@ def get_target(target_path_root, today_str, traded_account_list, id_account_mapp
     data_list = []
     for account in traded_account_list:
         if account != 7:
-            file_path = target_path_root + str(account) + '\\' + today_str + '\\final_stock.csv'
+            file_path = target_path_root + str(account) + '\\final_stock.csv'  # todo
+            # file_path = target_path_root + str(account) + '\\' + today_str + '\\final_stock.csv'  # todo
 
             data = pd.read_csv(file_path, encoding='gbk')
             data = data[['coid', 'trade']].rename(columns={'trade': 'target'})
@@ -34,9 +35,8 @@ def get_target(target_path_root, today_str, traded_account_list, id_account_mapp
             data = data[['coid', 'trade']].rename(columns={'trade': 'target'})
             data['target'] *= 100
 
-            target_pre = pd.read_csv(my_path.no7_account_root+today_str+'\\adj_data.csv')
-            target_pre = target_pre.rename(columns={'code': 'coid'})
-            target_pre['trade_tomorrow'] *= 100
+            target_pre = pd.read_csv(my_path.no7_account_root+today_str+'\\adj_data.csv').rename(columns={'代码': 'coid', '股数': 'trade_tomorrow'})
+            target_pre = target_pre[['coid', 'trade_tomorrow']]
 
             data = pd.merge(target_pre, data, on='coid', how='outer').fillna(0)
             data['target'] = data['target'] + data['trade_tomorrow']

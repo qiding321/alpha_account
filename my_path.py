@@ -10,11 +10,11 @@ import socket
 name = socket.gethostname()
 
 
-if name == '2013-20151201LG':
-    output_path_root = r'E:\MyTrading\IntradayAccount\Account\AlphaAccountDailySummary' + '\\'
-    log_path = r'E:\MyTrading\IntradayAccount\Log\log.log'
+# if name == '2013-20151201LG':
+output_path_root = r'\\2013-20151201LG\IntradayAccount\Account\AlphaAccountDailySummary' + '\\'
+log_path = r'\\2013-20151201LG\IntradayAccount\Log\log.log'
 
-    daily_trading_record_raw_path_root = r'\\SHIMING\trading\trading_summary' + '\\'
-    target_path_root = r'\\SHIMING\trading\target_files' + '\\'
+daily_trading_record_raw_path_root = r'\\SHIMING\trading\trading_summary' + '\\'
+target_path_root = r'\\SHIMING\trading\target_files' + '\\'
 
-    no7_account_root = r'E:\MyTrading\IntradayAccount\Account\No7DailyAccount' + '\\'
+no7_account_root = r'\\2013-20151201LG\IntradayAccount\Account\No7DailyAccount' + '\\'
