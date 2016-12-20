@@ -53,9 +53,21 @@ def get_trading_diff_summary(trading_record_summary, target_today, account_id_ma
         short_cost = ((-chunk_neg['average_price'] + chunk_neg['first_price']) * chunk_neg['trading_volume'].abs()).sum()
         short_cost_rate = short_cost / np.abs(short_trading_value)
 
+        na_data = data_merge_na[data_merge_na['account_name'] == key]
+        na_data_long = na_data[na_data['target'] >= 0]
+        na_data_short = na_data[na_data['target'] < 0]
+        na_volume_long = na_data_long['target'].sum()
+        na_volume_short = -na_data_short['target'].sum()
+
         data_this = pd.Series(
-            [long_trading_value, long_target_value, short_trading_value, short_target_value, long_cost, short_cost, long_cost_rate, short_cost_rate],
-            index=['long_trading_value', 'long_target_value', 'short_trading_value', 'short_target_value', 'long_cost', 'short_cost', 'long_cost_rate', 'short_cost_rate']
+            [
+                long_trading_value, long_target_value, short_trading_value, short_target_value, long_cost, short_cost,
+                long_cost_rate, short_cost_rate, na_volume_long, na_volume_short
+            ],
+            index=[
+                'long_trading_value', 'long_target_value', 'short_trading_value', 'short_target_value', 'long_cost', 'short_cost',
+                'long_cost_rate', 'short_cost_rate', 'na_volume_long', 'na_volume_short'
+            ]
         )
         data_list.append(data_this)
         key_list.append(key)
@@ -72,6 +84,7 @@ def get_trading_diff_summary(trading_record_summary, target_today, account_id_ma
         'long_cost_rate', 'short_cost_rate',
         'long_trading_value', 'long_target_value', 'short_trading_value', 'short_target_value',
         'long_cost', 'short_cost',
+        'na_volume_long', 'na_volume_short',
     ]
     data_all_summary = data_all_summary[columns_new]
 

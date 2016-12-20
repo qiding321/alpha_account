@@ -35,8 +35,12 @@ def get_target(target_path_root, today_str, traded_account_list, id_account_mapp
             data = data[['coid', 'trade']].rename(columns={'trade': 'target'})
             data['target'] *= 100
 
-            target_pre = pd.read_csv(my_path.no7_account_root+today_str+'\\adj_data.csv').rename(columns={'代码': 'coid', '股数': 'trade_tomorrow'})
-            target_pre = target_pre[['coid', 'trade_tomorrow']]
+            try:
+                target_pre = pd.read_csv(my_path.no7_account_root+today_str+'\\adj_data.csv').rename(columns={'代码': 'coid', '股数': 'trade_tomorrow'})
+                target_pre = target_pre[['coid', 'trade_tomorrow']]
+            except OSError as os_error:
+                my_log.error('os error: {}'.format(os_error))
+                target_pre = pd.DataFrame(columns=['coid', 'trade_tomorrow'])
 
             data = pd.merge(target_pre, data, on='coid', how='outer').fillna(0)
             data['target'] = data['target'] + data['trade_tomorrow']

@@ -38,7 +38,7 @@ def send_email(email_message, attach_file_path_list):
     message = MIMEMultipart()
     message['From'] = sender
     message['To'] = ','.join(receivers)
-    subject = 'Trading Monitor(alpha)' + datetime.datetime.now().strftime("%Y-%m-%d")
+    subject = 'Trading Monitor (alpha) ' + datetime.datetime.now().strftime("%Y-%m-%d")
     message['Subject'] = Header(subject, 'utf-8')
 
     email_text = 'Dear all,\n\nPlease see the attached files for trading summary.\n\n' + email_message + 'Best,\nDing'
