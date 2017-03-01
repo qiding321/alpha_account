@@ -21,27 +21,53 @@ import log
 my_log = log.my_log
 
 
-def send_email(email_message, attach_file_path_list):
+def send_email(email_message, attach_file_path_list, today_str):
     server = 'smtp.exmail.qq.com'
-    sender = 'dqi@mingshiim.com'
-    #sender = 'guangy@mingshiim.com'
+
+    # print("type label of sender, q or y: ")
+    # s_label = input()
+    s_label = 'q'
+    if s_label == 'q':
+        sender = 'dqi@mingshiim.com'
+    elif s_label =='y':
+        sender = 'guangy@mingshiim.com'
+    else:
+        print ("Wring input!!!")
+        raise
     print("type in psw: ")
     psw = input()
 
     ############### info 1 ################
+    receiver_4 = 'yuanyu@mingshiim.com'
     receiver_0 = 'xhwang@mingshiim.com'
     receiver_1 = 'whxun@mingshiim.com'
     receiver_2 = 'guangy@mingshiim.com'
     receiver_3 = 'dqi@mingshiim.com'
-    receivers = [receiver_0, receiver_1, receiver_2 , receiver_3]
+    receivers = [receiver_4, receiver_0, receiver_1, receiver_2 , receiver_3]
 
     message = MIMEMultipart()
     message['From'] = sender
     message['To'] = ','.join(receivers)
-    subject = 'Trading Monitor (alpha) ' + datetime.datetime.now().strftime("%Y-%m-%d")
+    subject = 'Trading Monitor (alpha) ' + today_str
     message['Subject'] = Header(subject, 'utf-8')
 
-    email_text = 'Dear all,\n\nPlease see the attached files for trading summary.\n\n' + email_message + 'Best,\nDing'
+    description_str = '''
+long_trading_diff: long target value - long trading value
+short_trading_diff: short target value - short trading value
+trading_cost: trading cost rate, positive means loss
+long_cost_rate: long trading cost rate
+short_cost_rate: short trading cost rate
+long_trading_value: long trading value
+long_target_value: long target value
+short_trading_value: short trading value
+short_target_value: short target value
+long_cost: long cost value
+short_cost: short cost value
+na_volume_long: stocks not available to get price, long side
+na_volume_short: stocks not available to get price, short side
+    '''
+    email_text = 'Dear all,\n\nPlease see the attached files for trading summary.\n' + email_message + '\n\n' + description_str + '\n\nBest,\nDing'
+
     message.attach(MIMEText(email_text, 'plain', 'utf-8'))
 
     for file_path in attach_file_path_list:

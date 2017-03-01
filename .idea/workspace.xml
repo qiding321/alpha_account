@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea17bd63-8f28-48e0-a76a-fe4d9c67d1cb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/qiding.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main3_get_value_pre_trade.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trading_info.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail.py" afterPath="$PROJECT_DIR$/mail.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_path.py" afterPath="$PROJECT_DIR$/my_path.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stats.py" afterPath="$PROJECT_DIR$/stats.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trading_record.py" afterPath="$PROJECT_DIR$/trading_record.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trading_target.py" afterPath="$PROJECT_DIR$/trading_target.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,31 +27,61 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trading_target.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trading_target.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="trading_record.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trading_record.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="456">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stats.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stats.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1254">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my_path.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_path.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trading_info.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trading_info.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="os.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Program Files (x86)/Anaconda3/Lib/os.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4560">
+              <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -66,10 +101,28 @@
       <find>pos</find>
       <find>,</find>
       <find>adj_data</find>
-      <find>first_</find>
-      <find>first_price</find>
-      <find>read</find>
       <find>\</find>
+      <find>na</find>
+      <find>trade</find>
+      <find>trade_to</find>
+      <find>adj</find>
+      <find>first</find>
+      <find>target_v</find>
+      <find>trade_</find>
+      <find>morn</find>
+      <find>first_price</find>
+      <find>now</find>
+      <find>first_</find>
+      <find>diff_pct</find>
+      <find>trading_record_today</find>
+      <find>trading_de</find>
+      <find>invalid</find>
+      <find>read</find>
+      <find>error</find>
+      <find>date not</find>
+      <find>dt</find>
+      <find>first_p</find>
+      <find>avera</find>
     </findStrings>
     <replaceStrings>
       <replace>neg</replace>
@@ -84,20 +137,40 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/log.py" />
-        <option value="$PROJECT_DIR$/trading_record.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/stats.py" />
-        <option value="$PROJECT_DIR$/my_path.py" />
         <option value="$PROJECT_DIR$/mail.py" />
         <option value="$PROJECT_DIR$/trading_target.py" />
+        <option value="$PROJECT_DIR$/trading_record.py" />
+        <option value="$PROJECT_DIR$/main3_get_value_pre_trade.py" />
+        <option value="$PROJECT_DIR$/trading_info.py" />
+        <option value="E:/Document/新股上市后15个工作日总结/get_stock_holding.py" />
+        <option value="$PROJECT_DIR$/stats.py" />
+        <option value="$PROJECT_DIR$/my_path.py" />
+        <option value="$PROJECT_DIR$/main2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1096" />
+    <option name="height" value="1896" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Buildout</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -134,9 +207,35 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="AlphaAccountCode" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="AlphaAccountCode" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main2 (1)">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Anaconda\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AlphaAccountCode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -148,9 +247,83 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlphaAccountCode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="stats" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AlphaAccountCode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stats.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="get_stock_holding" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/Document/新股上市后15个工作日总结" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AlphaAccountCode" />
+      <option name="SCRIPT_NAME" value="E:/Document/新股上市后15个工作日总结/get_stock_holding.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main3_get_value_pre_trade" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AlphaAccountCode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main3_get_value_pre_trade.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -287,12 +460,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.main2 (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.stats" />
+      <item index="3" class="java.lang.String" itemvalue="Python.get_stock_holding" />
+      <item index="4" class="java.lang.String" itemvalue="Python.main3_get_value_pre_trade" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.main2 (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.get_stock_holding" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main3_get_value_pre_trade" />
+        <item index="3" class="java.lang.String" itemvalue="Python.stats" />
+        <item index="4" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -307,17 +488,32 @@
       <option name="presentableId" value="Default" />
       <updated>1481699109769</updated>
     </task>
+    <task id="LOCAL-00001" summary="modify trading target">
+      <created>1482132991349</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1482132991349</updated>
+    </task>
+    <task id="LOCAL-00002" summary="some change v1">
+      <created>1482229899225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1482229899225</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="1912" y="-8" width="1096" height="1896" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13909379" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20415878" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39111593" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16701902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -325,15 +521,20 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45629966" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49432462" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modify trading target" />
+    <MESSAGE value="some change v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="some change v1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -353,49 +554,26 @@
           <line>51</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stats.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="28" />
+      <option name="time" value="65" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="len(trading_record_summary)" language="Python" />
+        <watch expression="len(trading_record_summary_)" language="Python" />
+        <watch expression="trading_record_today['time'].apply(lambda x: x.__class__)" language="Python" />
+        <watch expression="len(data_merge)" language="Python" />
+        <watch expression="len(target_today)" language="Python" />
+        <watch expression="data.columns" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/log.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/my_path.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/mail.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/main.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/stats.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/trading_target.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/trading_record.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/log.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/my_path.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/mail.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/main.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/stats.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/trading_target.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/trading_record.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/log.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/my_path.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/mail.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/main.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/stats.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/trading_target.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/trading_record.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/log.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/my_path.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/mail.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/main.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/stats.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/trading_target.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/trading_record.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/log.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/my_path.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/mail.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/main.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/stats.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/trading_target.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/trading_record.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/log.py" />
-    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/my_path.py" />
     <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/mail.py" />
     <entry file="file:E://D:/Program Files (x86)/Anaconda3/Lib/genericpath.py" />
     <entry file="file:E://D:/Program Files (x86)/Anaconda3/Lib/site-packages/pandas/io/parsers.py" />
@@ -407,26 +585,156 @@
     <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/main.py" />
     <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/my_path.py" />
     <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/trading_target.py" />
+    <entry file="file:E:/2013-20151201LG/IntradayAccount/AlphaAccountCode/trading_target.py" />
+    <entry file="file:E:/2013-20151201LG/IntradayAccount/AlphaAccountCode/stats.py" />
+    <entry file="file:E:/2013-20151201LG/IntradayAccount/AlphaAccountCode/trading_record.py" />
+    <entry file="file:E:/2013-20151201LG/IntradayAccount/AlphaAccountCode/my_path.py" />
+    <entry file="file:E:/2013-20151201LG/IntradayAccount/AlphaAccountCode/main.py" />
+    <entry file="file:E:/2013-20151201LG/IntradayAccount/AlphaAccountCode/mail.py" />
+    <entry file="file:E:/2013-20151201LG/IntradayAccount/AlphaAccountCode/main.py" />
+    <entry file="file:E:/D:/Anaconda/Lib/site-packages/pandas/core/indexing.py" />
+    <entry file="file:E:/D:/Anaconda/Lib/site-packages/pandas/core/frame.py" />
+    <entry file="file:E:/2013-20151201LG/IntradayAccount/AlphaAccountCode/trading_record.py" />
+    <entry file="file:E:/2013-20151201LG/IntradayAccount/AlphaAccountCode/trading_target.py" />
+    <entry file="file:E:/2013-20151201LG/IntradayAccount/AlphaAccountCode/mail.py" />
+    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/main.py" />
+    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/mail.py" />
+    <entry file="file:E:/2013-20151201LG/IntradayAccount/AlphaAccountCode/mail.py" />
+    <entry file="file:E:/2013-20151201LG/IntradayAccount/AlphaAccountCode/trading_target.py" />
+    <entry file="file:E:/2013-20151201LG/IntradayAccount/AlphaAccountCode/trading_record.py" />
+    <entry file="file:E:/2013-20151201LG/IntradayAccount/AlphaAccountCode/main.py" />
+    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/main.py" />
+    <entry file="file:E://E:/MyTrading/IntradayAccount/AlphaAccountCode/mail.py" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
+    <entry file="file://D:/Program Files (x86)/Anaconda3/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="1036" column="0" lean-forward="false" selection-start-line="1036" selection-start-column="0" selection-end-line="1036" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Anaconda3/Lib/_strptime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="342" column="0" lean-forward="false" selection-start-line="342" selection-start-column="0" selection-end-line="342" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py" />
+    <entry file="file://D:/Program Files (x86)/Anaconda3/Lib/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="1224" column="0" lean-forward="false" selection-start-line="1224" selection-start-column="0" selection-end-line="1224" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Anaconda3/Lib/site-packages/pandas/io/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="991">
+          <caret line="423" column="0" lean-forward="false" selection-start-line="423" selection-start-column="0" selection-end-line="423" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Anaconda3/Lib/site-packages/pandas/core/groupby.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="4185" column="0" lean-forward="false" selection-start-line="4185" selection-start-column="0" selection-end-line="4185" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Anaconda3/Lib/site-packages/pandas/io/parsers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="94" column="2" lean-forward="false" selection-start-line="94" selection-start-column="2" selection-end-line="94" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trading_target.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="152">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main3_get_value_pre_trade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Document/新股上市后15个工作日总结/get_stock_holding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trading_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trading_record.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="456">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/stats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="1254">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Anaconda3/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4560">
+          <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding />
         </state>
       </provider>
